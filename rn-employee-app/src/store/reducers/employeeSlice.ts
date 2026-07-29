@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { Employee } from 'ui-components';
+import { Employee } from '@thangnoob/ui-components';
 
 interface EmployeeState {
   employees: Employee[];

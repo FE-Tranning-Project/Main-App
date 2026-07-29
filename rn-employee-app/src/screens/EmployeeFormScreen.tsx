@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, StyleSheet, Alert, KeyboardAvoidingView, Platform, ScrollView } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigation, useRoute } from '@react-navigation/native';
-import { TextInput, Button, Employee } from 'ui-components';
+import { TextInput, Button, Employee } from '@thangnoob/ui-components';
 import { AppDispatch, RootState } from '../store';
 import { createEmployeeRequest, updateEmployeeRequest } from '../store/reducers/employeeSlice';
 

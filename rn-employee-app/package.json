@@ -22,7 +22,7 @@
     "react-redux": "^9.3.0",
     "redux": "^5.0.1",
     "redux-saga": "^1.5.1",
-    "ui-components": "file:../../ui-components"
+    "@thangnoob/ui-components": "file:../../ui-components"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

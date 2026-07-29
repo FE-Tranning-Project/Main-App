@@ -1,6 +1,6 @@
 import { call, put, takeLatest } from 'redux-saga/effects';
 import { employeeApi } from '../../api/employeeApi';
-import { Employee } from 'ui-components';
+import { Employee } from '@thangnoob/ui-components';
 import {
   fetchEmployeesRequest,
   fetchEmployeesSuccess,

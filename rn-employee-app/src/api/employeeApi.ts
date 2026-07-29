@@ -1,5 +1,5 @@
 import axiosClient from './axiosClient';
-import { Employee } from 'ui-components';
+import { Employee } from '@thangnoob/ui-components';
 
 const endpoint = '/employees';
 

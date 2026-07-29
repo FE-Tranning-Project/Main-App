@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useNavigation } from '@react-navigation/native';
 import { fetchEmployeesRequest, deleteEmployeeRequest } from '../store/reducers/employeeSlice';
 import { RootState, AppDispatch } from '../store';
-import { EmployeeCard } from 'ui-components';
+import { EmployeeCard } from '@thangnoob/ui-components';
 
 export const EmployeeListScreen = () => {
   const dispatch = useDispatch<AppDispatch>();
