@@ -1,6 +1,11 @@
 {
   "employees": [
-    { "id": 1, "name": "Nguyen Van A", "position": "Mobile Developer" },
-    { "id": 2, "name": "Tran Thi B", "position": "UI/UX Designer" }
+    {
+      "name": "Nguyen Van A",
+      "position": "Mobile Developerr",
+      "department": "zxc",
+      "avatar": "https://i.pravatar.cc/150",
+      "id": 1
+    }
   ]
 }
